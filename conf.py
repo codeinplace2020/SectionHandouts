@@ -61,3 +61,9 @@ latex_elements = {
     'maketitle': '',  # Disable \maketitle
     'tableofcontents': ''  # Disable \tableofcontents
 }
+
+
+# -- Options for sphinx-intl -------------------------------------------------
+
+locale_dirs = ['locale/']
+gettext_compact = False
