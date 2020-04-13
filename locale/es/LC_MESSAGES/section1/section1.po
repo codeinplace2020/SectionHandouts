@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Code in Place Teaching Team
+# This file is distributed under the same license as the Code in Place
+# Section Handouts (2020) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Code in Place Section Handouts (2020)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-13 12:48-0700\n"
+"PO-Revision-Date: 2020-04-13 13:18-0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Sam Redmond <sredmond@stanford.edu>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../../section1/section1.rst:5
+msgid "Section Handout 1"
+msgstr "Hoja informativa 1"
+
+#: ../../section1/section1.rst:9
+msgid "United Nations Karel"
+msgstr "Karel de las Naciones Unidas"
+
+#: ../../section1/section1.rst:11
+msgid ""
+"As part of its plans to help reconstruct infrastructure worldwide, the United "
+"Nations - that's right, the UN is using Karel - established a new program "
+"with the mission of dispatching house-building robots to repair flood-damaged "
+"areas."
+msgstr ""
+"Para reconstruir la infraestructura del mundo, las Naciones Unidas - es "
+"cierto, la ONU utiliza Karel - estableció un nuevo programa con la intención "
+"de enviar robots de construcción de viviendas para reparar áreas dañadas por "
+"las inundaciones."
+
+#: ../../section1/section1.rst:13
+msgid "Your job is to program those robots."
+msgstr "Su trabajo es programar esos robots."
+
+#: ../../section1/section1.rst:15
+msgid "Each robot begins at the west end of a street that might look like this:"
+msgstr ""
+"Cada robot empieza en el extremo oeste de una calle que podría verse así:"
+
+#: ../../section1/section1.rst:22
+msgid ""
+"Each beeper in the figure represents a pile of debris. Karel's job is to walk "
+"along the street and build a new house in the places marked by each beeper. "
+"Those houses, moreover, need to be raised on stilts to avoid damage from the "
+"next flood. Each house, in fact, should look exactly like the picture below:"
+msgstr ""
+"Cada bíper en la figura representa una montaña de escombros. Karel tendrá que "
+"andar por la calle y construir una casita nueva en los lugares marcados por "
+"cada bíper. Esas casas, además, tienen que ser levantadas sobre pilotes para "
+"evitar dañarse durante la próxima inundación. Cada casa, de hecho, debe verse "
+"exactamente como la siguiente imagen:"
+
+#: ../../section1/section1.rst:29
+msgid ""
+"The new house should be centered at the point at which the bit of debris was "
+"left, which means that the first house in the diagram above will be "
+"constructed with its left edge along 2nd Avenue. At the end of the run, Karel "
+"should be at the east end of the street having created a set of houses that "
+"look like this for the initial conditions shown:"
+msgstr ""
+"La nueva casa debe estar centrada en el punto en el que quedaron los restos, "
+"lo que significa que la primera casa en el diagrama anterior se construirá "
+"con su borde izquierdo a lo largo de la 2a avenida. Al final de la ejecución, "
+"Karel debería estar en el extremo este de la calle, habiendo creado un "
+"conjunto de casas que se vean así para las condiciones iniciales mostradas:"
+
+#: ../../section1/section1.rst:36
+msgid "Keep in mind the following information about the world:"
+msgstr "Tenga en cuenta la siguiente información sobre el mundo:"
+
+#: ../../section1/section1.rst:38
+msgid ""
+"Karel starts facing east at (1, 1) with an infinite number of beepers in its "
+"beeper bag."
+msgstr ""
+"Karel comienza frente al este en la posición (1, 1) con un número infinito de "
+"bíperes en su bolsa."
+
+#: ../../section1/section1.rst:39
+msgid ""
+"The beepers indicating the positions at which houses should be built will be "
+"spaced so that there is room to build the houses without overlapping or "
+"hitting walls."
+msgstr ""
+"Los bíperes que indican las posiciones en las que se deben construir las "
+"casas estarán espaciados para que haya espacio para construir las casas sin "
+"superponerse o chocar con las paredes."
+
+#: ../../section1/section1.rst:40
+msgid ""
+"Karel must end up facing east at the southeast corner of the world. Moreover, "
+"Karel should not run into a wall if it builds a house that extends into that "
+"final corner."
+msgstr ""
+"Karel debe terminar de cara al este en la esquina sureste del mundo. Además, "
+"Karel no debería chocarse con una pared si construye una casa que se extienda "
+"hasta aquella esquina final."
+
+#: ../../section1/section1.rst:42
+msgid ""
+"Write a program to implement the United Nations Karel project. Remember that "
+"your program should work for any world that meets the above conditions."
+msgstr ""
+"Escriba un programa para implementar el proyecto Karel de las Naciones "
+"Unidas. Recuerde que su programa debería funcionar para cualquier mundo que "
+"cumpla con las condiciones anteriores."
